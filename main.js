@@ -1,3 +1,14 @@
+var right = document.getElementById("logo-img");
+
+
+document.getElementById("logo-svg").addEventListener("load", function() {
+    var doc = this.getSVGDocument();
+    var right = doc.getElementById("Right"); 
+    // TweenLite.to(right, 10,{transformOrigin:"center",rotation:360,scale:800/600});
+});
+    
+ 
+
 function showHide() {
     //Change elements of form and thank you
     var hide = document.getElementById("mail");
