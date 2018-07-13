@@ -32,10 +32,8 @@
 	<g id="Details">
 		<g id="Web Info">
 			<text id="Website" style="transform: matrix(1,0,0,1,203.589,448.217)" >
-				<tspan x="0" y="0" class="txt3">madisonstudio.com</tspan>
 			</text>
 			<text id="Email" style="transform: matrix(1,0,0,1,204,487)" >
-				<tspan x="0" y="0" class="txt3">steve@madisonstudio.com</tspan>
 			</text>
 		</g>
 		<g id="Initials">
@@ -46,17 +44,6 @@
 				<tspan x="0" y="0" class="txt2">4</tspan>
 			</text>
 		</g>
-		<g id="Name / Title">
-			<text id="Phone" style="transform: matrix(1,0,0,1,204.082,-79.949)" >
-				<tspan x="0" y="0" class="txt4">000 1234 5678</tspan>
-			</text>
-			<text id="GRAPHIC DESIGNER" style="transform: matrix(0.798,0,0,0.798,203.709,-132.829)" >
-				<tspan x="0" y="0" class="txt5">GRAPHIC DESIGNER</tspan>
-			</text>
-			<text id="STEVE MADISON" style="transform: matrix(1.001,0,0,1.008,203.511,-256.853)" >
-				<tspan x="0" y="0" class="txt6">STEVE</tspan>
-				<tspan x="0" y="92.638" class="txt6">MADISON</tspan>
-			</text>
-		</g>
+		
 	</g>
 </svg>
