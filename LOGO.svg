@@ -11,16 +11,12 @@
 	</style>
 	<g id="Background">
 		<path id="Job Title Bg" class="shp0" d="M55,-118h297v-50h-297z" />
-		<g id="Vertical Lines">
-			<path id="Bottom" class="shp1" d="M201,572h6v-35h-6z" />
-			<path id="Top" class="shp1" d="M201,-368h6v-35h-6z" />
-		</g>
 		<g id="Badge">
 			<g id="Border">
 				<path id="Right" class="shp0" d="M35.15 185L219 1.15L402.85 185L219 368.85L35.15 185ZM393.71 185L219 10.29L44.29 185L219 359.71L393.71 185Z" />
 				<path id="Left" class="shp0" d="M5.15 185L189 1.15L372.85 185L189 368.85L5.15 185ZM363.71 185L189 10.29L14.29 185L189 359.71L363.71 185Z" />
 			</g>
-			<text id="SIX " style="transform: matrix(1,0,0,1,202.5,287)" >
+			<text id="SIX" style="transform: matrix(1,0,0,1,202.5,287)" >
 				<tspan x="0" y="0" class="txt2">SIX</tspan>
 			</text>
 			<text id="Text layer 34" style="transform: matrix(1,0,0,1,20,-17)" >
@@ -37,10 +33,10 @@
 			</text>
 		</g>
 		<g id="Initials">
-			<text id="M" style="transform: matrix(1,0,0,1,277,206)" >
+			<text id="9" style="transform: matrix(1,0,0,1,277,206)" >
 				<tspan x="0" y="0" class="txt2">9</tspan>
 			</text>
-			<text id="S" style="transform: matrix(1,0,0,1,127,206)" >
+			<text id="4" style="transform: matrix(1,0,0,1,127,206)" >
 				<tspan x="0" y="0" class="txt2">4</tspan>
 			</text>
 		</g>

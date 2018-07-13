@@ -41,8 +41,13 @@ small{
 
 #instagram{
 	max-width: 2em;
-	/* position: fixed; */
-	margin-right: 0;
-}
+	min-width: 2em;
+	
+	
+	
+} 
 
+#social{
+	margin-top:10%;
+}
 
