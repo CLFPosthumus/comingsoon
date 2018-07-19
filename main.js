@@ -1,6 +1,5 @@
 var right = document.getElementById("logo-img");
 
-//document.getElementById("logo-svg").this.getSVGDocument().getElementById("SIX")
 document.getElementById("logo-svg").addEventListener("load", function() {
     var doc = this.getSVGDocument();
     var crown = doc.getElementById("Crown"); 
@@ -46,6 +45,4 @@ function showHide() {
     var show = document.getElementById("thankyou");
     hide.style.display = 'none';
     show.style.display = 'block';
-
-
 }
