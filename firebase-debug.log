@@ -1,32 +1,105 @@
-[debug] [2018-07-13T15:03:12.590Z] ----------------------------------------------------------------------
-[debug] [2018-07-13T15:03:12.590Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\posthc1\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] [2018-07-13T15:03:12.590Z] CLI Version:   3.18.4
-[debug] [2018-07-13T15:03:12.590Z] Platform:      win32
-[debug] [2018-07-13T15:03:12.590Z] Node Version:  v9.6.1
-[debug] [2018-07-13T15:03:12.590Z] Time:          Fri Jul 13 2018 17:03:12 GMT+0200 (W. Europe Daylight Time)
-[debug] [2018-07-13T15:03:12.590Z] ----------------------------------------------------------------------
+[debug] [2018-07-16T07:56:50.283Z] ----------------------------------------------------------------------
+[debug] [2018-07-16T07:56:50.286Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\CReal\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-07-16T07:56:50.286Z] CLI Version:   3.19.3
+[debug] [2018-07-16T07:56:50.286Z] Platform:      win32
+[debug] [2018-07-16T07:56:50.286Z] Node Version:  v8.11.3
+[debug] [2018-07-16T07:56:50.287Z] Time:          Mon Jul 16 2018 09:56:50 GMT+0200 (W. Europe Daylight Time)
+[debug] [2018-07-16T07:56:50.287Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-07-13T15:03:12.606Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-07-13T15:03:12.606Z] > authorizing via signed-in user
-[debug] [2018-07-13T15:03:12.606Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/coming-soon-foursixnine  
+[debug] [2018-07-16T07:56:50.299Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-16T07:56:50.300Z] > authorizing via signed-in user
+[debug] [2018-07-16T07:56:50.303Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/coming-soon-foursixnine  
   
- Fri Jul 13 2018 17:03:12 GMT+0200 (W. Europe Daylight Time)
-[debug] [2018-07-13T15:03:13.347Z] <<< HTTP RESPONSE 200
-[debug] [2018-07-13T15:03:13.347Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/coming-soon-foursixnine/tokens  
+ Mon Jul 16 2018 09:56:50 GMT+0200 (W. Europe Daylight Time)
+[debug] [2018-07-16T07:56:50.998Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-16T07:56:50.999Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/coming-soon-foursixnine/tokens  
   
- Fri Jul 13 2018 17:03:13 GMT+0200 (W. Europe Daylight Time)
-[debug] [2018-07-13T15:03:13.984Z] <<< HTTP RESPONSE 200
-[debug] [2018-07-13T15:03:13.984Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/coming-soon-foursixnine  
+ Mon Jul 16 2018 09:56:50 GMT+0200 (W. Europe Daylight Time)
+[debug] [2018-07-16T07:56:51.705Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-16T07:56:51.706Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/coming-soon-foursixnine  
   
- Fri Jul 13 2018 17:03:13 GMT+0200 (W. Europe Daylight Time)
-[debug] [2018-07-13T15:03:14.765Z] <<< HTTP RESPONSE 200
+ Mon Jul 16 2018 09:56:51 GMT+0200 (W. Europe Daylight Time)
+[debug] [2018-07-16T07:56:52.470Z] <<< HTTP RESPONSE 200
 [info] 
-[info] === Serving from 'C:\Users\posthc1'...
+[info] === Serving from 'C:\Users\CReal\Documents\comingsoon'...
 [info] 
-[debug] [2018-07-13T15:03:14.767Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/16506376208/clients/_:getWebAppConfig  
+[debug] [2018-07-16T07:56:52.474Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/16506376208/clients/_:getWebAppConfig  
   
- Fri Jul 13 2018 17:03:14 GMT+0200 (W. Europe Daylight Time)
-[debug] [2018-07-13T15:03:15.222Z] <<< HTTP RESPONSE 200
-[info] i  hosting: Serving hosting files from: documents/469
+ Mon Jul 16 2018 09:56:52 GMT+0200 (W. Europe Daylight Time)
+[debug] [2018-07-16T07:56:52.929Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-07-19T09:22:39.850Z] ----------------------------------------------------------------------
+[debug] [2018-07-19T09:22:39.854Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\CReal\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-07-19T09:22:39.854Z] CLI Version:   3.19.3
+[debug] [2018-07-19T09:22:39.854Z] Platform:      win32
+[debug] [2018-07-19T09:22:39.854Z] Node Version:  v8.11.3
+[debug] [2018-07-19T09:22:39.855Z] Time:          Thu Jul 19 2018 11:22:39 GMT+0200 (W. Europe Daylight Time)
+[debug] [2018-07-19T09:22:39.855Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-19T09:22:39.870Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-19T09:22:39.871Z] > authorizing via signed-in user
+[debug] [2018-07-19T09:22:39.873Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-19T09:22:39.873Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/J0U6hh46kUVanis2py_3tn5OODKn6WIZyY4-zNuzouc',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Jul 19 2018 11:22:39 GMT+0200 (W. Europe Daylight Time)
+[debug] [2018-07-19T09:22:40.009Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-19T09:22:40.016Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/coming-soon-foursixnine  
+  
+ Thu Jul 19 2018 11:22:40 GMT+0200 (W. Europe Daylight Time)
+[debug] [2018-07-19T09:22:40.655Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-19T09:22:40.657Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/coming-soon-foursixnine/tokens  
+  
+ Thu Jul 19 2018 11:22:40 GMT+0200 (W. Europe Daylight Time)
+[debug] [2018-07-19T09:22:41.271Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-19T09:22:41.274Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/coming-soon-foursixnine  
+  
+ Thu Jul 19 2018 11:22:41 GMT+0200 (W. Europe Daylight Time)
+[debug] [2018-07-19T09:22:42.043Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\CReal\Documents\comingsoon'...
+[info] 
+[debug] [2018-07-19T09:22:42.050Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/16506376208/clients/_:getWebAppConfig  
+  
+ Thu Jul 19 2018 11:22:42 GMT+0200 (W. Europe Daylight Time)
+[debug] [2018-07-19T09:22:42.531Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-07-19T09:24:49.816Z] ----------------------------------------------------------------------
+[debug] [2018-07-19T09:24:49.819Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\CReal\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-07-19T09:24:49.819Z] CLI Version:   3.19.3
+[debug] [2018-07-19T09:24:49.819Z] Platform:      win32
+[debug] [2018-07-19T09:24:49.819Z] Node Version:  v8.11.3
+[debug] [2018-07-19T09:24:49.819Z] Time:          Thu Jul 19 2018 11:24:49 GMT+0200 (W. Europe Daylight Time)
+[debug] [2018-07-19T09:24:49.819Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-19T09:24:49.830Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-19T09:24:49.831Z] > authorizing via signed-in user
+[debug] [2018-07-19T09:24:49.833Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/coming-soon-foursixnine  
+  
+ Thu Jul 19 2018 11:24:49 GMT+0200 (W. Europe Daylight Time)
+[debug] [2018-07-19T09:24:50.617Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-19T09:24:50.618Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/coming-soon-foursixnine/tokens  
+  
+ Thu Jul 19 2018 11:24:50 GMT+0200 (W. Europe Daylight Time)
+[debug] [2018-07-19T09:24:51.203Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-19T09:24:51.205Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/coming-soon-foursixnine  
+  
+ Thu Jul 19 2018 11:24:51 GMT+0200 (W. Europe Daylight Time)
+[debug] [2018-07-19T09:24:51.974Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\CReal\Documents\comingsoon'...
+[info] 
+[debug] [2018-07-19T09:24:51.976Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/16506376208/clients/_:getWebAppConfig  
+  
+ Thu Jul 19 2018 11:24:51 GMT+0200 (W. Europe Daylight Time)
+[debug] [2018-07-19T09:24:52.340Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
 [info] +  hosting: Local server: http://localhost:5000
 

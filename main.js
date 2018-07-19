@@ -10,6 +10,8 @@ document.getElementById("logo-svg").addEventListener("load", function() {
     var six = doc.getElementById("SIX"); 
     var four = doc.getElementById("4"); 
     var nine = doc.getElementById("9"); 
+
+    
     
     TweenLite.from(right, 0.4, {x: '2000%',  delay: .1});    
     TweenLite.to(right, 0.4, {});
@@ -25,13 +27,9 @@ document.getElementById("logo-svg").addEventListener("load", function() {
     TweenLite.from(six, 0.4, {css:{alpha:0},  delay: .7});    
     TweenLite.to(six, 0.4, {});
 
-    // TweenLite.from(six, 0.4, {x: '2500%' , delay: .3});    
-    // TweenLite.to(six, 0.4, {});
-
     TweenLite.from(nine, 0.4, {css:{alpha:0}, delay: .9});    
     TweenLite.to(nine, 0.4, {});
-    
-    
+       
 
     TweenLite.from(separator, 0.4,{delay: 1.5})
     TweenLite.from(separator, 0.4,{transformOrigin:"center", rotation:720})
@@ -40,28 +38,14 @@ document.getElementById("logo-svg").addEventListener("load", function() {
     TweenLite.to(crown, 0.4, {});
 });
     
-// document.getElementById("logo-svg").getSVGDocument().getElementById("Right"); 
-//     TweenLite.to(right, {transformOrigin:"center",rotation:360,scale:800/600});
-// });
-    
- 
+
 
 function showHide() {
     //Change elements of form and thank you
     var hide = document.getElementById("mail");
     var show = document.getElementById("thankyou");
-    
     hide.style.display = 'none';
     show.style.display = 'block';
-    //Write input to database
-    saveEmail()
+
 
 }
-
-function saveEmail() {
-    var email = document.getElementById("MERGE0").value.toString();
-    name = email.split("@")[0]
-    firebase.database().ref('Email/' + name).set({
-      adress: email,
-    });
-  }
