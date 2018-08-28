@@ -1,6 +1,8 @@
 body, html {
 	height: 100% !important;
 	height: 100% !important;
+    overflow-x: hidden;
+
   }
 
 
@@ -24,7 +26,7 @@ small{
 }
 
 #logo{
-	margin-bottom: 3em;
+	margin-bottom: 5em;
 }
 
 #outer-container{
@@ -42,12 +44,50 @@ small{
 #instagram{
 	max-width: 2em;
 	min-width: 2em;
-	
-	
-	
 } 
 
 #social{
-	margin-top:10%;
+	padding: 2em!important;
 }
+
+#instagram{
+	margin:1em;
+}
+
+@media only screen and (max-height: 475px) {
+    #social{
+		padding: 10% !important;
+		display: none !important;
+	}
+
+	#logo{
+		transform: scale(1.8);
+	}
+    #mail{
+		transform: scale(1.4);
+		margin-top:125px;
+	}
+
+x
+	#social{
+		transform: scale(1.2);
+	}
+}
+
+
+@media screen and (min-width: 1024px) {
+	#logo{
+		transform: scale(1.8);
+	}
+    #mail{
+		transform: scale(1.4);
+		margin-top:125px;
+	}
+
+x
+	#social{
+		transform: scale(1.2);
+	}
+}
+
 
